@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Deployment Agent Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            text-align: center;
+            max-width: 800px;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .emoji {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .cta {
+            background: #ff6b6b;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.2s;
+            margin-top: 2rem;
+        }
+        .cta:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI Deployment Agent</h1>
+        <p class="subtitle">Automatically deploy your projects to GitHub and cloud platforms</p>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="emoji">🐙</div>
+                <h3>GitHub Integration</h3>
+                <p>Auto-create repos, upload files, enable Pages</p>
+            </div>
+            <div class="feature">
+                <div class="emoji">☁️</div>
+                <h3>Multi-Cloud</h3>
+                <p>Deploy to AWS, GCP, Azure with one command</p>
+            </div>
+            <div class="feature">
+                <div class="emoji">🤖</div>
+                <h3>AI-Powered</h3>
+                <p>Smart project analysis and deployment strategies</p>
+            </div>
+        </div>
+        
+        <button class="cta" onclick="window.open('https://github.com/ai-deployment-agent', '_blank')">
+            Get Started
+        </button>
+        
+        <p style="margin-top: 2rem; opacity: 0.7;">
+            Deployed automatically with AI Deployment Agent ✨
+        </p>
+    </div>
+</body>
+</html>
